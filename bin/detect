@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -f $1/.apt/usr/bin/libopenblas.a ]; then
+    echo "openblas setup"
+    exit 0
+fi
+
+exit 1

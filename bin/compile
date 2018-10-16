@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+ln -s /app/.apt/usr/lib /usr/local/opt/openblas/lib
+ln -s /app/.apt/usr/include /usr/local/opt/openblas/include
